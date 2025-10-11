@@ -13,7 +13,7 @@ __pycache__
 
 # --- ignore specific dirs/files -----
 # part of the data
-./data/0_original_data
+./data
 
 # the temp dir
 temp/

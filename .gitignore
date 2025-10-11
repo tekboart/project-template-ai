@@ -18,4 +18,7 @@ __pycache__
 # the temp dir
 temp/
 
+# ignore chekcpoints (as they can be large)
+./models/checkpoints/
+
 

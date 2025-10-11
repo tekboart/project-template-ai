@@ -65,7 +65,29 @@
 
 ## Project Dir Structure (only 2 level)
 ```bash
-[ADD THE TREE OUTPUT FROM TERMINAL]
+project_template
+├── data
+│   └── 0_original_data
+├── images
+│   └── logos
+├── logs
+│   ├── deploy
+│   ├── dev
+│   └── maintain
+├── models
+├── outputs
+│   ├── history
+│   ├── hyperparams
+│   ├── hyperparams_search
+│   ├── inferences
+│   ├── model_arch_plot
+│   └── plots
+├── project_files
+├── reports
+│   └── diagrams
+└── utils
+
+21 directories
 ```
 
 ## Contact

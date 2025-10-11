@@ -63,7 +63,7 @@
 
 - Please refer to the file `requirements.txt` for a comprehensive list of packages and their corresponding version.
 
-## Project Dir Structure (only 2 level)
+## Project Directory/Folder Structure
 ```bash
 project_template
 ├── data
@@ -79,8 +79,9 @@ project_template
 │   ├── dev
 │   └── maintain
 ├── models
+│   ├── checkpoints
+│   └── history
 ├── outputs
-│   ├── history
 │   ├── hyperparams
 │   ├── hyperparams_search
 │   ├── inferences
@@ -94,7 +95,7 @@ project_template
 │       └── utils
 └── tests
 
-28 directories
+29 directories
 ```
 
 ## Contact

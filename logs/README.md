@@ -1,1 +1,2 @@
-# Add the logs here
+# Store logs here
+# to be accessed later

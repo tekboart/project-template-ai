@@ -1,5 +1,6 @@
 # .pre-commit-config.yaml
-# Ensures consistent formatting, import order, and linting before every commit.
+# Ensures consistent formatting, linting, type safety, and clean notebooks
+# before every commit or PR.
 
 repos:
   # --- 1. General housekeeping ---
@@ -20,7 +21,6 @@ repos:
       - id: black
         language_version: python3
         args: [--line-length=88]
-        additional_dependencies: []
 
   # --- 3. Import sorting ---
   - repo: https://github.com/PyCQA/isort
@@ -37,7 +37,17 @@ repos:
       - id: ruff
         args: ["--fix"]
 
-  # --- 5. Optional: Security scanning ---
+  # --- 5. Type checking ---
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.12.1
+    hooks:
+      - id: mypy
+        name: Type checking with mypy
+        args: ["--ignore-missing-imports", "--show-error-codes", "--strict"]
+        additional_dependencies: []
+        exclude: "tests/|docs/"
+
+  # --- 6. Security scanning ---
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.10
     hooks:
@@ -45,4 +55,11 @@ repos:
         name: Security check with Bandit
         args: ["-r", "src", "--skip", "B101"]
 
+  # --- 7. Notebook cleanup (for Jupyter/Colab files) ---
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        name: Strip output from Jupyter notebooks
+        files: \.ipynb$
 

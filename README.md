@@ -43,25 +43,56 @@
 
 # TITLE OF THE WORK/RESEARCH
 ![Python](https://badges.aleen42.com/src/python.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-svg?style=flat&color=EE4C2C&logo=pytorch&logoColor=white&labelColor=gray)
-![NumPy](https://img.shields.io/badge/NumPy-svg?style=flat&color=013243&logo=numpy&logoColor=white&labelColor=gray)
-![Pandas](https://img.shields.io/badge/pandas-svg?style=flat&color=150458&logo=pandas&logoColor=white&labelColor=gray)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-svg?style=flat&color=65BAEA&label=&logoColor=white&labelColor=gray)
-![PIL](https://img.shields.io/badge/Pillow-svg?style=flat&color=yellow&label=PIL&logoColor=white&labelColor=gray)
-![Ray_Tune](https://img.shields.io/badge/Ray_Tune-svg?style=flat&color=028CF0&logo=ray&logoColor=white&labelColor=gray)
-
 
 ## Description
 [ADD A CONCISE DESCRIPTION AND INTRODUCTION (PREFERABLY WITH SOME TABLES AND FIGURES)]
 
-
-## Requirements
-![Python](https://img.shields.io/badge/Python-%3D%3D_3.11.3-396D99.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-%3D%3D_2.0.1+cu118-FF6F00.svg)
-![Pandas](https://img.shields.io/badge/pandas-%3D%3D_2.0.3-150458.svg)
-![NumPy](https://img.shields.io/badge/NumPy-%3D%3D_1.23.5-013243.svg)
-
 - Please refer to the file `requirements.txt` for a comprehensive list of packages and their corresponding version.
+
+## 🛠 Developer Setup
+
+### 1. Clone and install dependencies
+![Python](https://img.shields.io/badge/Python-%3D%3D_3.12.11-396D99.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-%3D%3D_2.0.1+cu118-FF6F00.svg)
+```bash
+git clone https://github.com/yourusername/project_template.git
+cd project_template
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2. Setup the project
+
+#### Option A: Using Makefile (Recommended)
+> Fast, easy, automated setup.
+```bash
+make dev
+make format
+make test
+make docs
+make clean
+```
+
+#### Option B: Manually setting up
+### B.1. Enable pre-commit hooks
+> *Optional but recommended for code quality assurance. If you fail to do, the GitHub Actions CI/CD pipeline will catch the issues; so better to catch them yourself before pushing changes.*
+```bash
+pre-commit install
+pre-commit run --all-files  # optional, to format everything once
+pre-commit autoupdate  # Run this periodically to keep hooks updated
+```
+
+### B.2. Enable pre-commit hooks
+```bash
+pytest
+```
+
+### B.3. Build the documentation
+```bash
+cd docs
+make html
+```
 
 ## Project Directory/Folder Structure
 ```bash
@@ -104,11 +135,4 @@ Should you have any questions, feel free to contact TekBoArt @tekboart.
 
 
 ## License
-<!-- Creative Common Licenses -->
-<!-- "Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA)" -->
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-<!-- MIT License (can be used commercially) -->
-<!-- Shield: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
-
 - Refer to the file `LICENSE` for more information regarding the license of this repository.

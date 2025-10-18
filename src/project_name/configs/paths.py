@@ -1,0 +1,5 @@
+DATA_PATH = ""
+DB_PATH = ""
+LOG_PATH = ""
+OUTPUT_PATH = ""
+

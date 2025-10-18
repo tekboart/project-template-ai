@@ -13,12 +13,12 @@ __pycache__
 
 # --- ignore specific dirs/files -----
 # part of the data
-./data
+./data/
 
 # the temp dir
 temp/
 
 # ignore chekcpoints (as they can be large)
-./models/checkpoints/
+models/checkpoints/
 
 

@@ -75,7 +75,7 @@ make clean
 ```
 
 #### Option B: Manually setting up
-### B.1. Enable pre-commit hooks
+##### B.1. Enable pre-commit hooks
 > *Optional but recommended for code quality assurance. If you fail to do, the GitHub Actions CI/CD pipeline will catch the issues; so better to catch them yourself before pushing changes.*
 ```bash
 pre-commit install
@@ -83,12 +83,12 @@ pre-commit run --all-files  # optional, to format everything once
 pre-commit autoupdate  # Run this periodically to keep hooks updated
 ```
 
-### B.2. Enable pre-commit hooks
+##### B.2. Enable pre-commit hooks
 ```bash
 pytest
 ```
 
-### B.3. Build the documentation
+##### B.3. Build the documentation
 ```bash
 cd docs
 make html

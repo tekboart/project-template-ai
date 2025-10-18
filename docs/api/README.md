@@ -1,1 +1,2 @@
-# for generated API docs (Sphinx or MkDocs).
+# API
+> for generated API docs (Sphinx or MkDocs).

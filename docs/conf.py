@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '<project_name>'
-copyright = '2025, TekBoArt'
-author = 'TekBoArt'
-release = '0.1.0'
+project = "<project_name>"
+copyright = "2025, TekBoArt"
+author = "TekBoArt"
+release = "0.1.0-rc.1"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -21,12 +21,12 @@ extensions = [
 # Optional: allow Markdown files as source
 source_suffix = [".rst", ".md"]
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 # Options: 'alabaster', 'classic', 'sphinx_rtd_theme', etc.
-html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+html_theme = "sphinx_rtd_theme"
+html_static_path = ["_static"]

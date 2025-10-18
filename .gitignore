@@ -21,4 +21,5 @@ temp/
 # ignore chekcpoints (as they can be large)
 models/checkpoints/
 
-
+# ignore Sphinx build files
+docs/_build/

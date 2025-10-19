@@ -1,25 +1,55 @@
-__pycache__
+#######################################
+# General ignores
+#######################################
+# chaches and temp files
 .pytest_cache
+
+## VsCode
 .vscode
+
+## Pycharm
 .idea
+
+##  IntelliJ IDEA
+*.iml
+
+## Vim
 .vim
+
+## Jupyter Notebook
 .ipynb_checkpoints
+
+## Python
+__pycache__
 *.pyc
 
-# the Drawio backup files
+## the Drawio backup files
 *.bkp
 *.dtmp
 
+## ignore Sphinx build files
+_build/
+_templates/
+_static/
 
-# --- ignore specific dirs/files -----
-# part of the data
+## Logs
+*.log
+
+## temp files
+*.tmp
+
+## Ruff (a Python linter) cache
+.ruff_cache
+
+#######################################
+# Project specific ignores
+#######################################
+## part of the data
 ./data/
 
-# the temp dir
+## the temp dir
 temp/
+tmp/
 
-# ignore chekcpoints (as they can be large)
+## ignore chekcpoints (as they can be large)
 models/checkpoints/
-
-# ignore Sphinx build files
-docs/_build/

@@ -56,7 +56,7 @@ repos:
         args: ["-r", "src", "--skip", "B101"]
         always_run: true
         files: ^src/
-        exclude: ^(docs/|tests/)
+        exclude: ^(docs/|tests/|.*conf\.py)
 
   # --- 7. Notebook cleanup (for Jupyter/Colab files) ---
   - repo: https://github.com/kynan/nbstripout

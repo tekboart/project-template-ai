@@ -53,10 +53,10 @@ repos:
     hooks:
       - id: bandit
         name: Security check with Bandit
-        args: ["-r", "src", "tests", "--skip", "B101"]
+        args: ["-r", "src", "--skip", "B101"]
         always_run: true
         files: ^src/
-        # exclude: ^(docs/|.*conf\.py)
+        exclude: ^(docs/|tests/)
 
   # --- 7. Notebook cleanup (for Jupyter/Colab files) ---
   - repo: https://github.com/kynan/nbstripout

@@ -9,7 +9,8 @@
 project = "<project_name>"
 copyright = "2025, TekBoArt"
 author = "TekBoArt"
-release = "0.1.0-rc.1"
+version = "0.1-alpha"  # version: used for display
+release = "0.1.0-alpha"  # release: used for full version info
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

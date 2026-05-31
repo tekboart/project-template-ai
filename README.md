@@ -109,35 +109,34 @@ make html
 ```bash
 project_template
 ├── data
-│   └── 0_original_data
 ├── dbs
 ├── docs
-│   ├── notes
-│   └── tutorials
+│   ├── api
+│   ├── diagrams
+│   ├── experiments
+│   ├── notes
+│   ├── reports
+│   └── tutorials
 ├── images
-│   └── logos
+│   └── logos
 ├── logs
-│   ├── deploy
-│   ├── dev
-│   └── maintain
+│   ├── deploy
+│   ├── dev
+│   └── maintain
 ├── models
-│   ├── checkpoints
-│   └── history
+│   ├── checkpoints
+│   ├── configs
+│   ├── final
+│   └── history
 ├── outputs
-│   ├── hyperparams
-│   ├── hyperparams_search
-│   ├── inferences
-│   ├── model_arch_plot
-│   └── plots
+│   ├── inferences
+│   └── training
 ├── project_files
-├── reports
-│   └── diagrams
 ├── src
-│   └── project_name
-│       └── utils
+│   └── project_name
 └── tests
 
-29 directories
+28 directories
 ```
 
 ## Citation

@@ -156,7 +156,7 @@ project_template
 
 ## 📬 Contact
 <!-- Unfortunately this repo is no longer actively maintained.  -->
-Should you have any questions, feel free to contact TekBoArt @tekboart.
+Should you have any questions, feel free to contact [@tekboart](https://github.com/tekboart).
 
 
 ## ⚖️  License

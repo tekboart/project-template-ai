@@ -2,7 +2,7 @@
   <p>
     <a align="center" href="" target="_blank">
       <img
-        width="75%"
+        width="100%"
         style="border-radius: 20px;"
         src="images/project_banner.jpg"
       >

@@ -42,20 +42,26 @@
 <hr height="10">
 
 # Title of The Project/Research
-![Python](https://badges.aleen42.com/src/python.svg)
-![Pytest](https://badges.aleen42.com/src/pytest.svg)
 ![Makefile](https://img.shields.io/badge/Makefile-Yes-green.svg)
+![Docs](https://img.shields.io/badge/Docs-Yes-green.svg)
+![AutoFormat](https://img.shields.io/badge/AutoFormat-Yes-green.svg)
+![PyTest](https://img.shields.io/badge/PyTest-Yes-green.svg)
+
+![GithubActions](https://img.shields.io/badge/Github_Actions_(CI/CD)-svg?style=flat&color=181717&logo=github&logoColor=white&labelColor=gray)
+![CMake](https://img.shields.io/badge/Make-svg?style=flat&color=064F8C&logo=cmake&logoColor=white&labelColor=gray)
+![Sphinx](https://img.shields.io/badge/Sphinx-svg?style=flat&color=000000&logo=sphinx&logoColor=white&labelColor=gray)
+![Python](https://badges.aleen42.com/src/python.svg)
+![HTML](https://badges.aleen42.com/src/html5.svg)
 
 ## 💬 Description
-[ADD A CONCISE DESCRIPTION AND INTRODUCTION (PREFERABLY WITH SOME TABLES AND FIGURES)]
-
-- Please refer to the file `requirements.txt` for a comprehensive list of packages and their corresponding version.
+[ADD A CONCISE DESCRIPTION AND INTRODUCTION TO YOUR PROJECT (PREFERABLY WITH SOME TABLES AND FIGURES)]
 
 ## 🛠️ Developer Setup
 
+> Please refer to the file `requirements.txt` for a comprehensive list of packages and their corresponding version.
+
 ### 1. Clone and install dependencies
-![Python](https://img.shields.io/badge/Python-%3D%3D_3.12.11-396D99.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-%3D%3D_2.0.1+cu118-FF6F00.svg)
+
 ```bash
 git clone https://github.com/yourusername/project_template.git
 cd project_template
@@ -79,6 +85,7 @@ make clean
 #### Option B: Manually setting up
 ##### B.1. Enable pre-commit hooks
 > *Optional but recommended for code quality assurance. If you fail to do, the GitHub Actions CI/CD pipeline will catch the issues; so better to catch them yourself before pushing changes.*
+
 ```bash
 pre-commit install
 pre-commit run --all-files  # optional, to format everything once
@@ -86,11 +93,13 @@ pre-commit autoupdate  # Run this periodically to keep hooks updated
 ```
 
 ##### B.2. Enable pre-commit hooks
+
 ```bash
 pytest
 ```
 
 ##### B.3. Build the documentation
+
 ```bash
 cd docs
 make html
@@ -131,10 +140,25 @@ project_template
 29 directories
 ```
 
+## Citation
+```latex
+@article{<bib_key>,
+  author = {<Author1_surname, Author1_name> and <Author2_surname, Author2_name>},
+  title = {<Title>},
+  year = {<Year>},
+  publisher = {<Publisher>},
+  journal = {<Journal_Name>},
+  url = {<URL>},
+  doi = {<DOI>},
+  month = {<Published_Month>},
+  keywords = {<Keyword1>, <Keyword2>, <Keyword3>, <Keyword4>, <Keyword5>}
+}
+```
+
 ## 📬 Contact
 <!-- Unfortunately this repo is no longer actively maintained.  -->
 Should you have any questions, feel free to contact TekBoArt @tekboart.
 
 
 ## ⚖️  License
-- Refer to the file `LICENSE` for more information regarding the license of this repository.
+This repository has a `GPL-3.0 license` license, as found in the `LICENSE` file.

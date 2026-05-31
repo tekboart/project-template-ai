@@ -4,7 +4,7 @@
       <img
         width="75%"
         style="border-radius: 20px;"
-        src="images/20160222_164141 - visualization high quality.jpg"
+        src="images/project_banner.jpg"
       >
     </a>
   </p>
@@ -41,15 +41,17 @@
 
 <hr height="10">
 
-# TITLE OF THE WORK/RESEARCH
+# Title of The Project/Research
 ![Python](https://badges.aleen42.com/src/python.svg)
+![Pytest](https://badges.aleen42.com/src/pytest.svg)
+![Makefile](https://img.shields.io/badge/Makefile-Yes-green.svg)
 
-## Description
+## 💬 Description
 [ADD A CONCISE DESCRIPTION AND INTRODUCTION (PREFERABLY WITH SOME TABLES AND FIGURES)]
 
 - Please refer to the file `requirements.txt` for a comprehensive list of packages and their corresponding version.
 
-## 🛠 Developer Setup
+## 🛠️ Developer Setup
 
 ### 1. Clone and install dependencies
 ![Python](https://img.shields.io/badge/Python-%3D%3D_3.12.11-396D99.svg)
@@ -94,7 +96,7 @@ cd docs
 make html
 ```
 
-## Project Directory/Folder Structure
+## 🏗️ Directory/Folder Structure
 ```bash
 project_template
 ├── data
@@ -129,10 +131,10 @@ project_template
 29 directories
 ```
 
-## Contact
+## 📬 Contact
 <!-- Unfortunately this repo is no longer actively maintained.  -->
 Should you have any questions, feel free to contact TekBoArt @tekboart.
 
 
-## License
+## ⚖️  License
 - Refer to the file `LICENSE` for more information regarding the license of this repository.
